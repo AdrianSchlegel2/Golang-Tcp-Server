@@ -1,2 +1,2 @@
 # Golang-Tcp-Server
-TCP Server coded with Golang
+A **TCP (Transfer Control Protocol) server**, which I coded using the **Golang language.** It is capable of taking GET requests and has some routes that I have created for testing purposes (like "/", "/contact", "/info") and which gets passed html page through a function. To run the server simply run the program as you usually would "go run main.go" and then go to a browser of your choice and enter "localhost:8080" with ":8080" being the port being the one I have specified in the code. In your terminal / cmd prompt you can see the http request going through according to RFC 7230.
